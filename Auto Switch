@@ -1,0 +1,15 @@
+'Creamos el loop
+Do While true
+  'Seleccionamos la entrada con el nombre "Input 1"
+  'Definimos la fucnión "CUT", "Fade", "Zoom", "CrossZoom","CubeZoom", "FlyRotate", "Merge","WipeReverse" etc..
+  Input.Find("Input 1").Function("Cut")
+  'Damos el tiempo de pausa entre cambios de 5s, el número se debe expresar en ms
+  Sleep(5000)
+  
+  Input.Find("Input 2").Function("Cut")
+  Sleep(5000)
+  
+  Input.Find("Input 3").Function("Cut")
+  Sleep(5000)
+'Corremos el loop
+Loop
